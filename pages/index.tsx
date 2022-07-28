@@ -6,7 +6,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Michelle Cooks</title>
+				<title>Michelle Cooks</title>
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="description" content="Recipes for Michelle to try" />
         <link rel="icon" href="/favicon.ico" />
 			</Head>
