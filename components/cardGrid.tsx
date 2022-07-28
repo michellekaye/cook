@@ -57,6 +57,18 @@ export default function CardGrid({ showAll }: any) {
 			url: "https://www.recipetineats.com/vietnamese-rice-paper-rolls-spring-rolls/",
 			tags: 'asian, vietnamese, appy',
 		},
+		{
+			img: "/thumb-roast-pork.jpeg",
+			title: "Crispy Roast Pork & Slaw",
+			url: "https://www.marionskitchen.com/crispy-roast-pork-with-asian-slaw/",
+			tags: 'asian, filipino',
+		},
+		{
+			img: "/thumb-pork-noodles.jpeg",
+			title: "Fragrant Pork Noodles",
+			url: "https://www.marionskitchen.com/15-minute-fragrant-pork-noodles/",
+			tags: 'asian, pasta',
+		},
 	];
 
 	const compare = ( a: any, b: any ) => {
