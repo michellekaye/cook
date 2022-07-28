@@ -1,3 +1,4 @@
+/* tslint:disable */
 import lunr from 'lunr';
 import { useState } from 'react';
 import styles from './cardGrid.module.scss';
@@ -77,14 +78,14 @@ export default function CardGrid({ showAll }: any) {
 		this.field('img');
 		this.field('tags');
 
-		orderedList.forEach(function (doc) {
+		orderedList.forEach((doc) => {
 			this.add(doc)
 		}, this)
 	})
 
 	const results = idx.search(query);
 
-	const dataResults = [];
+	const dataResults: { img: string; title: string; url: string; tags: string; }[] = [];
 	
 	results?.forEach(function (result) {
 		orderedList.map((item) => item.title === result.ref && dataResults.push(item));
