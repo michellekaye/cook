@@ -13,6 +13,11 @@
 		color: #aaa;
 	}
 
+	&:focus,
+	&:hover {
+		outline: none;
+	}
+
 	@media (min-width: 650px) {
 		max-width: 1024px;
 	}
