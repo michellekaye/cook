@@ -7,8 +7,8 @@
 	cursor: pointer;
 	display: flex;
 	filter: drop-shadow(2px 4px 9px rgba(0, 0, 0, 20%));
-	height: 300px;
-	padding: 1.5rem;
+	height: 225px;
+	padding: 1rem;
 	text-align: left;
 	text-decoration: none;
 	transition: all .2s ease-in-out;
@@ -16,6 +16,7 @@
 
 	@media (min-width: 650px) {
 		height: 500px;
+		padding: 1.5rem;
 
 		&:hover {
 			transform: scale(1.015);
@@ -31,4 +32,9 @@
 	line-height: 1;
 	margin: 0;
 	text-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+
+	@media (max-width: 650px) {
+		font-size: 1rem;
+		text-shadow: 2px 2px 10px rgb(0 0 0 / 90%);
+	}
 }
