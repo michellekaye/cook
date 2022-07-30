@@ -3,7 +3,7 @@
 	background-position: center;
 	background-size: cover;
 	border: none;
-	border-radius: 25px;
+	border-radius: 10px;
 	cursor: pointer;
 	display: flex;
 	filter: drop-shadow(2px 4px 9px rgba(0, 0, 0, 20%));
@@ -16,7 +16,7 @@
 	width: 100%;
 
 	@media (min-width: 650px) {
-		height: 500px;
+		height: 400px;
 		padding: 1.5rem;
 
 		&:hover {

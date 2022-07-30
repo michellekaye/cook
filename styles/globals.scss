@@ -24,6 +24,8 @@ body {
 
 #__next {
 	padding: 5vh;
+	max-width: 1200px;
+	margin: 0 auto;
 
 	@media (max-width: 460px) {
 		padding: 4vh;
@@ -69,6 +71,15 @@ select {
 		font-size: 1.75rem;
 	}
 }
+
+.MuiTypography-root {
+	font-family: "Nunito", sans-serif;
+}
+
+h2.MuiTypography-root {
+	font-weight: 700;
+}
+
 
 /* nunito-regular - latin */
 @font-face {
