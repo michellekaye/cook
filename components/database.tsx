@@ -101,6 +101,12 @@ const data = [
 		url: "",
 		tags: 'filipino, mom, cold',
 	},
+	{
+		img: "/thumb-beef-kaldereta.jpeg",
+		title: "Beef Kaldereta",
+		url: "",
+		tags: 'filipino, mom, stew, beef',
+	},
 ];
 	
 export default data;

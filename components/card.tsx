@@ -1,6 +1,7 @@
 
 import styles from './card.module.scss'
 import { useState, useEffect } from 'react';
+import { AiFillHome } from 'react-icons/ai';
 
 interface Props {
 	title?: string;
@@ -25,6 +26,7 @@ export default function Card({ img, title, url, tags }: Props) {
 	
 	return (
 		<div className={styles.Card} style={{ backgroundImage: `url(${img})` }}>
+			{home && <div className={styles.CardIcon}><AiFillHome /></div>}
 			<h2 className={styles.CardTitle} >{title}</h2>
 		</div>
 	)

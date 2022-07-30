@@ -9,6 +9,7 @@
 	filter: drop-shadow(2px 4px 9px rgba(0, 0, 0, 20%));
 	height: 225px;
 	padding: 1rem;
+	position: relative;
 	text-align: left;
 	text-decoration: none;
 	transition: all .2s ease-in-out;
@@ -23,6 +24,15 @@
 			filter: drop-shadow(2px 4px 9px rgba(0, 0, 0, 40%));
 		}
 	}
+}
+
+.CardIcon svg {
+	color: #fff;
+	font-size: 1.5rem;
+	filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 50%));
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
 }
 
 .CardTitle {
