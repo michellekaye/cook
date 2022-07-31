@@ -105,6 +105,10 @@
 	margin: 1.5rem 0;
 	padding: 0 1rem;
 
+	li {
+		margin-bottom: 1rem;
+	}
+
 	&:before {
 		content: "Notes";
 		color: rgba(0, 0, 0, .3);

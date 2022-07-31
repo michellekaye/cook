@@ -16,6 +16,11 @@ const data = [
 		title: "Banana Bread",
 		url: "https://natashaskitchen.com/banana-bread-recipe-video/",
 		tags: 'baking, baked, pastry, chocolate, vegetarian, snack',
+		notes: [
+			'Use 3-4 bananas (more the mushier). Usually use 7 bananas when doubling the recipe.',
+			'Do 1/2 cup white and 1/2 cup brown sugar to make it sweeter (but if you add chocolate chips it is already sweet).',
+			'Do all dry in a bowl. Cream sugar and butter, then add vanilla to mixture. Mash bananas in another bowl and eggs. Then add wet into dry. Then add toppings.'
+		]
 	},
 	{
 		img: "/thumb-salmon-rice.jpeg",

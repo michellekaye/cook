@@ -35,7 +35,7 @@ export default function CardGrid({ showAll }: any) {
 
 	const results = idx.search(query);
 
-	const dataResults: { img: string; title: string; url: string; tags: string; ingredients?: string[] | undefined; steps?: string[] | undefined }[] = [];
+	const dataResults: { img: string; title: string; url: string; tags: string; ingredients?: string[] | undefined; steps?: string[] | undefined; notes?: string[] | undefined }[] = [];
 	
 	results?.forEach(function (result) {
 		orderedList.map((item) => item.title === result.ref && dataResults.push(item));
@@ -57,6 +57,7 @@ export default function CardGrid({ showAll }: any) {
 							tags={recipe.tags}
 							ingredients={recipe.ingredients}
 							steps={recipe.steps}
+							notes={recipe.notes}
 						/>
 					)
 				})}

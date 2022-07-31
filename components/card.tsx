@@ -62,7 +62,15 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes 
 							Go to recipe <HiExternalLink />
 						</a>
 						
-						{notes && <ul className={styles.CardNotes} />}
+						{notes && (
+							<ul className={styles.CardNotes}>
+								{notes.map((item) => (
+									<li key={item}>
+										{item}
+									</li>
+								))}
+							</ul>
+						)}
 					</DialogContentText>
 				</DialogContent>
 			</Dialog>
