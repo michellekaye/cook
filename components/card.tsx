@@ -13,9 +13,10 @@ interface Props {
 	tags: string;
 	ingredients?: string[] | undefined,
 	steps?: string[] | undefined,
+	notes?: string[] | undefined,
 }
 
-export default function Card({ img, title, url, tags, ingredients, steps }: Props) {
+export default function Card({ img, title, url, tags, ingredients, steps, notes }: Props) {
 	const [home, setHome] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
 	const [fullWidth, setFullWidth] = useState(true);
@@ -40,10 +41,32 @@ export default function Card({ img, title, url, tags, ingredients, steps }: Prop
 	}, [tags]);
 
 	if (url) return (
-		<a className={styles.Card} href={url} target="_blank" rel="noreferrer" style={{ backgroundImage: `url(${img})` }}>
-			{<div className={styles.CardIcon}><HiExternalLink /></div>}
-			<h2 className={styles.CardTitle} >{title}</h2>
-		</a>
+		<>
+			<div className={styles.Card} style={{ backgroundImage: `url(${img})` }} onClick={handleClickOpen}>
+				{<div className={styles.CardIcon}><HiExternalLink /></div>}
+				<h2 className={styles.CardTitle} >{title}</h2>
+			</div>
+			<Dialog
+				fullWidth={fullWidth}
+				maxWidth={maxWidth}
+				open={isOpen}
+				onClose={handleClose}
+			>
+				<div className={styles.CardImg} style={{ backgroundImage: `url(${img})` }} />
+				<DialogTitle id="responsive-dialog-title">
+					{title}
+				</DialogTitle>
+				<DialogContent>
+					<DialogContentText>
+						<a className={styles.Button} href={url} target="_blank" rel="noreferrer">
+							Go to recipe <HiExternalLink />
+						</a>
+						
+						{notes && <ul className={styles.CardNotes} />}
+					</DialogContentText>
+				</DialogContent>
+			</Dialog>
+		</>
 	);
 	
 	return (

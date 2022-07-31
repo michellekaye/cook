@@ -100,3 +100,39 @@
 		text-transform: uppercase;
 	}
 }
+
+.CardNotes {
+	margin: 1.5rem 0;
+	padding: 0 1rem;
+
+	&:before {
+		content: "Notes";
+		color: rgba(0, 0, 0, .3);
+		display: block;
+		font-weight: 900;
+		font-size: .9rem;
+		left: -1rem;
+		margin: 0 0 1rem 0;
+		padding: 0;
+		position: relative;
+		text-transform: uppercase;
+	}
+}
+
+.Button {
+	background: #f1f1f1;
+	border-radius: 10px;
+	color: rgba(0, 0, 0, .3);
+	display: block;
+	font-weight: 900;
+	font-size: .9rem;
+	padding: 1rem 1.5rem;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	svg {
+		font-size: 1.5rem;
+		vertical-align: bottom;
+	}
+}
