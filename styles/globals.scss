@@ -73,11 +73,11 @@ select {
 }
 
 .MuiTypography-root {
-	font-family: "Nunito", sans-serif;
+	font-family: "Nunito", sans-serif !important;
 }
 
 h2.MuiTypography-root {
-	font-weight: 700;
+	font-weight: 700 !important;
 }
 
 
