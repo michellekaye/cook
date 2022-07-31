@@ -59,3 +59,44 @@
 		min-width: 600px;
 	}
 }
+
+.CardIngredients {
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 1.5rem 0;
+	padding: 0 1rem 1.5rem;
+
+	&:before {
+		content: "Ingredients";
+		color: rgba(0,0,0,.3);
+		display: block;
+		font-weight: 900;
+		font-size: .9rem;
+		left: -1rem;
+		margin: 0 0 1rem 0;
+		padding: 0;
+		position: relative;
+		text-transform: uppercase;
+	}
+}
+
+.CardSteps {
+	margin: 0 0 1.5rem 0;
+	padding: 0 1rem;
+
+	li {
+		margin-bottom: 1rem;
+	}
+
+	&:before {
+		content: "Directions";
+		color: rgba(0, 0, 0, .3);
+		display: block;
+		font-weight: 900;
+		font-size: .9rem;
+		left: -1rem;
+		margin: 0 0 1rem 0;
+		padding: 0;
+		position: relative;
+		text-transform: uppercase;
+	}
+}

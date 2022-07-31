@@ -88,48 +88,152 @@ const data = [
 		title: "Macaroni Salad",
 		url: "",
 		tags: 'pasta, cold, filipino, momn, snack',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
 	},
 	{
 		img: "/thumb-laing.jpeg",
 		title: "Laing",
 		url: "",
 		tags: 'filipino, mom, vegetable, vegetarian, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
 	},
 	{
 		img: "/thumb-lumpia-shanghai.jpeg",
 		title: "Lumpiang Shanghai",
 		url: "",
 		tags: 'filipino, mom, appy, snack, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
 	},
 	{
 		img: "/thumb-lumpiang-togue.jpeg",
 		title: "Lumpiang Togue",
 		url: "",
 		tags: 'filipino, mom, appy, snack, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
 	},
 	{
 		img: "/thumb-lumpiang-sariwa.jpeg",
 		title: "Lumpiang Sariwa",
 		url: "",
 		tags: 'filipino, mom, cold',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
 	},
 	{
 		img: "/thumb-beef-kaldereta.jpeg",
 		title: "Beef Kaldereta",
 		url: "",
 		tags: 'filipino, mom, stew, beef',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
 	},
 	{
 		img: "/thumb-bicol-express.webp",
 		title: "Bicol Express",
 		url: "",
 		tags: 'filipino, mom, stew, pork, spicy',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
 	},
 	{
 		img: "/thumb-dinuguan.jpeg",
 		title: "Dinuguan",
 		url: "",
 		tags: 'filipino, mom, stew, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
 	},
 ];
 	

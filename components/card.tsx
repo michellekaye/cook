@@ -2,6 +2,7 @@
 import styles from './card.module.scss'
 import { useState, useEffect } from 'react';
 import { AiFillHome } from 'react-icons/ai';
+import { HiExternalLink } from 'react-icons/hi';
 import { Dialog, DialogTitle, DialogContent, DialogContentText, DialogProps, SelectChangeEvent } from '@mui/material';
 
 interface Props {
@@ -10,9 +11,11 @@ interface Props {
 	imgAlt?: string;
 	url: string;
 	tags: string;
+	ingredients?: string[] | undefined,
+	steps?: string[] | undefined,
 }
 
-export default function Card({ img, title, url, tags }: Props) {
+export default function Card({ img, title, url, tags, ingredients, steps }: Props) {
 	const [home, setHome] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
 	const [fullWidth, setFullWidth] = useState(true);
@@ -38,6 +41,7 @@ export default function Card({ img, title, url, tags }: Props) {
 
 	if (url) return (
 		<a className={styles.Card} href={url} target="_blank" rel="noreferrer" style={{ backgroundImage: `url(${img})` }}>
+			{<div className={styles.CardIcon}><HiExternalLink /></div>}
 			<h2 className={styles.CardTitle} >{title}</h2>
 		</a>
 	);
@@ -60,7 +64,25 @@ export default function Card({ img, title, url, tags }: Props) {
         </DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Coming soon
+						{ingredients && (
+							<ul className={styles.CardIngredients}>
+								{ingredients.map((item) => (
+									<li key={item}>
+										{item}
+									</li>
+								))}
+							</ul>
+						)}
+
+						{steps && (
+							<ol className={styles.CardSteps}>
+								{steps.map((item) => (
+									<li key={item}>
+										{item}
+									</li>
+								))}
+							</ol>
+						)}
           </DialogContentText>
         </DialogContent>
 			</Dialog>
