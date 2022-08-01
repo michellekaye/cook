@@ -91,6 +91,12 @@ const data = [
 		tags: 'drink, cold, snack, coffee',
 	},
 	{
+		img: "/thumb-corn-dip.jpeg",
+		title: "Mexican Corn Dip",
+		url: "https://www.halfbakedharvest.com/street-corn-dip/",
+		tags: 'snack, appy, dip, mexican',
+	},
+	{
 		img: "/thumb-macaroni-salad.jpeg",
 		title: "Macaroni Salad",
 		url: "",
