@@ -16,11 +16,7 @@ const data = [
 		title: "Banana Bread",
 		url: "https://natashaskitchen.com/banana-bread-recipe-video/",
 		tags: 'baking, baked, pastry, chocolate, vegetarian, snack',
-		notes: [
-			'Use 3-4 bananas (more the mushier). Usually use 7 bananas when doubling the recipe.',
-			'Do 1/2 cup white and 1/2 cup brown sugar to make it sweeter (but if you add chocolate chips it is already sweet).',
-			'Do all dry in a bowl. Cream sugar and butter, then add vanilla to mixture. Mash bananas in another bowl and eggs. Then add wet into dry. Then add toppings.'
-		]
+		notes: "- Use 3-4 bananas (more the mushier). Usually use 7 bananas when doubling the recipe. \n - Do 1/2 cup white and 1/2 cup brown sugar to make it sweeter (but if you add chocolate chips it is already sweet). \n - Do all dry in a bowl. Cream sugar and butter, then add vanilla to mixture. Mash bananas in another bowl and eggs. Then add wet into dry. Then add toppings.",
 	},
 	{
 		img: "/thumb-salmon-rice.jpeg",
@@ -38,7 +34,7 @@ const data = [
 		img: "/thumb-masala-chai.webp",
 		title: "Masala Chai",
 		url: "https://www.feastingathome.com/authentic-masala-chai-recipe/",
-		tags: 'indian, drink, vegetarian',
+		tags: 'indian, drink, vegetarian, snack',
 	},
 	{
 		img: "/thumb-garlic-confit.jpeg",
@@ -87,6 +83,12 @@ const data = [
 		title: "Musubi",
 		url: "https://www.allrecipes.com/recipe/49785/spam-musubi/",
 		tags: 'spam, pork, rice, seaweed, hawaiian, snack',
+	},
+	{
+		img: "/thumb-dalgona-coffee.webp",
+		title: "Dalgona Coffee",
+		url: "https://mykoreankitchen.com/dalgona-coffee-whipped-coffee/",
+		tags: 'drink, cold, snack, coffee',
 	},
 	{
 		img: "/thumb-macaroni-salad.jpeg",

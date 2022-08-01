@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import CardGrid from '../components/cardGrid'
 
-const Home: NextPage = () => {
+const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 				<h2>Hello! Welcome to</h2>
 				<h1>Michelle Cooks</h1>
 			</div>
-			<CardGrid />
+			<CardGrid props={props} />
     </div>
   )
 }

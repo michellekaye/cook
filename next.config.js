@@ -8,7 +8,9 @@ module.exports = nextConfig
 module.exports = {
 	experimental: {
 		images: {
-				unoptimized: true
+			unoptimized: true,
+			loader: "default",
+    	domains: ["localhost"],
 		}
 	}
 }

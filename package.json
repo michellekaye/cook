@@ -16,9 +16,11 @@
     "@types/lunr": "^2.3.4",
     "lunr": "^2.3.9",
     "next": "12.2.3",
+    "qs": "^6.11.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
+    "react-markdown": "^8.0.3",
     "sass": "^1.54.0",
     "scss": "^0.2.4",
     "styled-components": "^5.3.5"
