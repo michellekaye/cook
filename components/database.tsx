@@ -97,6 +97,18 @@ const data = [
 		tags: 'snack, appy, dip, mexican',
 	},
 	{
+		img: "/thumb-fried-rice.jpeg",
+		title: "Fried Rice",
+		url: "https://www.gimmesomeoven.com/fried-rice-recipe/",
+		tags: 'rice, chinese, asian',
+	},
+	{
+		img: "/thumb-hummus.jpeg",
+		title: "Hummus",
+		url: "https://cookieandkate.com/best-hummus-recipe/",
+		tags: 'snack, cold, dip, mediterranean, middle eastern',
+	},
+	{
 		img: "/thumb-macaroni-salad.jpeg",
 		title: "Macaroni Salad",
 		url: "",
