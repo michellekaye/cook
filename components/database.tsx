@@ -252,7 +252,102 @@ const data = [
 		img: "/thumb-sinigang.jpeg",
 		title: "Sinigang",
 		url: "",
+		tags: 'filipino, mom, soup, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-beef-with-bok-choy.jpeg",
+		title: "Beef with Bok Choy",
+		url: "",
+		tags: 'filipino, mom, stew, beef, bok choy',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-menudo.jpeg",
+		title: "Menudo",
+		url: "",
 		tags: 'filipino, mom, stew, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-beef-nilaga.jpeg",
+		title: "Beef Nilaga",
+		url: "",
+		tags: 'filipino, mom, soup, beef',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-beef-mami.jpeg",
+		title: "Beef Mami",
+		url: "",
+		tags: 'filipino, mom, soup, beef, noodles',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-beef-with-broccoli.jpeg",
+		title: "Beef with Broccoli",
+		url: "",
+		tags: 'filipino, mom, beef, broccoli',
 		ingredients: [
 			'lorem ipsum',
 			'dolor sit amet consectetur',
