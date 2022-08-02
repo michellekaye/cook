@@ -1,12 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
-
-module.exports = nextConfig
-
-module.exports = {
-	experimental: {
+	reactStrictMode: true,
+		experimental: {
 		images: {
 			unoptimized: true,
 			loader: "default",
@@ -14,3 +9,5 @@ module.exports = {
 		}
 	}
 }
+
+module.exports = nextConfig;
