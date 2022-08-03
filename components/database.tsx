@@ -23,6 +23,7 @@ const data = [
 		title: "Salmon Rice Bowl",
 		url: "https://getonmyplate.com/salmon-and-rice-bowl/",
 		tags: 'asian, japanese, fish, vegetarian, seafood, salmon',
+		cuisine: "Asian"
 	},
 	{
 		img: "/thumb-palak-paneer.webp",

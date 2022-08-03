@@ -8,6 +8,10 @@
 	transition: all .3s ease-in-out;
 	width: 100%;
 
+	svg {
+		font-size: 1.5rem !important;
+	}
+
 	@media (min-width: 650px) {
 		padding: 2rem;
 	}
@@ -22,6 +26,10 @@
 	* {
 		transition: all .2s ease-in-out;
 		font-size: 1.5rem !important;
+	}
+
+	svg {
+		font-size: 1.25rem !important;
 	}
 
 	@media (min-width: 650px) {
