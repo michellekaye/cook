@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { FaSearch, FaGlobeAmericas, FaInfoCircle } from 'react-icons/fa';
 import Nav from '../components/nav';
 import CardScroll from '../components/cardScroll';
+import Footer from '../components/footer';
 
 const Categories: NextPage = (props) => {
   return (
@@ -17,11 +18,11 @@ const Categories: NextPage = (props) => {
 			
 			<Nav>
 				<div className="header">
-					<h1>Michelle Cooks</h1>
+					<Link href="/"><a><h1>Michelle Cooks</h1></a></Link>
 					<div>
-						<Link href="/about"><a><FaInfoCircle /></a></Link>
-						<Link href="/categories"><a className="active"><FaGlobeAmericas /></a></Link>
 						<Link href="/"><a><FaSearch/></a></Link>
+						<Link href="/categories"><a className="active"><FaGlobeAmericas /></a></Link>
+						<Link href="/about"><a><FaInfoCircle /></a></Link>
 					</div>
 				</div>
 			</Nav>
@@ -53,6 +54,8 @@ const Categories: NextPage = (props) => {
 
 			<h2 className="scroll-title">Veggies</h2>
 			<CardScroll props={props} query='vegetable' />
+
+			<Footer />
     </>
   )
 }

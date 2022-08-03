@@ -54,11 +54,17 @@ select {
 	flex-direction: row;
 	justify-content: space-between;
 
+	a {
+		text-decoration: none;
+	}
+
 	h1 {
+		color: #333;
 		font-size: 2rem;
 		line-height: 1;
 		margin: 0;
 		font-weight: 900;
+		text-decoration: none;
 	}
 
 	svg {
@@ -79,7 +85,9 @@ select {
 }
 
 .scroll-title {
-	bottom: -1rem;
+	bottom: -.5rem;
+	font-size: 1.25rem;
+	font-weight: 800;
 	margin: 0 0 0 2rem;
 	position: relative;
 

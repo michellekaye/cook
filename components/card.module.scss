@@ -6,7 +6,6 @@
 	border-radius: 10px;
 	cursor: pointer;
 	display: flex;
-	filter: drop-shadow(2px 4px 9px rgba(0, 0, 0, 20%));
 	height: 225px;
 	padding: 1rem;
 	position: relative;
@@ -17,6 +16,7 @@
 
 	@media (min-width: 650px) {
 		height: 400px;
+		filter: drop-shadow(2px 4px 9px rgba(0, 0, 0, 20%));
 		padding: 1.5rem;
 
 		&:hover {
@@ -27,7 +27,7 @@
 }
 
 .CardScroll {
-	margin-right: 1rem;
+	margin-right: .75rem;
 	min-width: 150px;
 	width: 150px;
 

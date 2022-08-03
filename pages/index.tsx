@@ -4,6 +4,7 @@ import { FaSearch, FaGlobeAmericas, FaInfoCircle } from 'react-icons/fa';
 import Head from 'next/head'
 import CardGrid from '../components/cardGrid'
 import Nav from '../components/nav';
+import Footer from '../components/footer';
 
 const Home: NextPage = (props) => {
   return (
@@ -17,17 +18,19 @@ const Home: NextPage = (props) => {
 			
 			<Nav>
 				<div className="header">
-					<h1>Michelle Cooks</h1>
+					<Link href="/"><a><h1>Michelle Cooks</h1></a></Link>
 					<div>
-						<Link href="/about"><a><FaInfoCircle /></a></Link>
-						<Link href="/categories"><a><FaGlobeAmericas /></a></Link>
 						<Link href="/"><a className="active"><FaSearch/></a></Link>
+						<Link href="/categories"><a><FaGlobeAmericas /></a></Link>
+						<Link href="/about"><a><FaInfoCircle /></a></Link>
 					</div>
 				</div>
 			</Nav>
 			<div className="nav-placeholder" />
 
 			<CardGrid props={props} />
+
+			<Footer />
     </>
   )
 }
