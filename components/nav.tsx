@@ -9,7 +9,7 @@ const Nav = (props: any) => {
 	});
 
 	const handleScroll = () => {
-		window.pageYOffset > 20 ? !nav && setNav(true) : nav && setNav(false);
+		window.pageYOffset > 0 ? !nav && setNav(true) : nav && setNav(false);
 	}
 
 	return (

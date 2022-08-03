@@ -16,18 +16,13 @@
 	&:hover {
 		outline: none;
 	}
-
-	@media (min-width: 650px) {
-		max-width: 1024px;
-		margin: 0 auto;
-	}
 }
 
 .SearchWrapper {
 	margin: 0 1rem;
 
-	@media (min-width: 650px) {
+	@media (min-width: 1024px) {
 		max-width: 1024px;
-		margin: 0 2rem;
+		margin: 0 auto;
 	}
 }
