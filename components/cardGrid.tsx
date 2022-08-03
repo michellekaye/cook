@@ -60,8 +60,10 @@ export default function CardGrid(props: any) {
 	const finalData = dataResults.length > 0 ? dataResults : orderedList;
 
 	return (
-		<div>
-			<input className={searchStyles.Search} placeholder="Search recipes..." onChange={e => setQuery(e.target.value)} />
+		<>
+			<div className={searchStyles.SearchWrapper}>
+				<input className={searchStyles.Search} placeholder="Search recipes..." onChange={e => setQuery(e.target.value)} />
+			</div>
 			<div className={styles.CardGrid}>
 				{ finalData.map((recipe: any) => {
 					return (
@@ -78,6 +80,6 @@ export default function CardGrid(props: any) {
 					)
 				})}
 			</div>
-		</div>
+		</>
 	)
 }

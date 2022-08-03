@@ -15,9 +15,17 @@
 	transition: all .2s ease-in-out;
 	width: 100%;
 
+	&.scroll {
+		width: 200px;
+	}
+
 	@media (min-width: 650px) {
 		height: 400px;
 		padding: 1.5rem;
+
+		&.scroll {
+			width: 400px;
+		}
 
 		&:hover {
 			transform: scale(1.015);

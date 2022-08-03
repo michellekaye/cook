@@ -1,11 +1,10 @@
 .Search {
 	background: #f1f1f1;
 	border: 0;
-	border-radius: 25px;
+	border-radius: 45px;
 	display: block;
-	font-size: 16px;	
-	margin: 0 auto 3rem;
-	padding: 1rem 1.5rem;
+	font-size: 18px;	
+	padding: 1.5rem 2rem;
 	transition: all .2s ease-in-out;
 	width: 100%;
 
@@ -20,5 +19,15 @@
 
 	@media (min-width: 650px) {
 		max-width: 1024px;
+		margin: 0 auto;
+	}
+}
+
+.SearchWrapper {
+	margin: 0 1rem;
+
+	@media (min-width: 650px) {
+		max-width: 1024px;
+		margin: 0 2rem;
 	}
 }
