@@ -9,7 +9,7 @@ const data = [
 		img: "/thumb-pasticcio.jpeg",
 		title: "Pasticcio",
 		url: "https://www.foodnetwork.com/recipes/michael-symon/pasticcio-11247525",
-		tags: 'italian, pasta, greek, cheese, baking, baked, beef',
+		tags: 'pasta, greek, cheese, baking, baked, beef, mediterranean',
 	},
 	{
 		img: "/thumb-banana-bread.jpeg",
@@ -108,6 +108,18 @@ const data = [
 		title: "Hummus",
 		url: "https://cookieandkate.com/best-hummus-recipe/",
 		tags: 'snack, cold, dip, mediterranean, middle eastern',
+	},
+	{
+		img: "/thumb-basque-cheesecake.webp",
+		title: "Basque Cheesecake",
+		url: "https://www.kingarthurbaking.com/blog/2022/05/03/how-to-make-basque-cheesecake-baked-in-air-fryer",
+		tags: 'snack, dessert, cold, baked, air fryer',
+	},
+	{
+		img: "/thumb-butter-chicken.jpeg",
+		title: "Butter Chicken",
+		url: "https://www.recipetineats.com/butter-chicken/",
+		tags: 'chicken, indian, stew',
 	},
 	{
 		img: "/thumb-macaroni-salad.jpeg",
@@ -375,6 +387,82 @@ const data = [
 			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
 		]
 	},
+	{
+		img: "/thumb-taho.jpeg",
+		title: "Taho",
+		url: "",
+		tags: 'filipino, mom, snack, dessert',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-leche-flan.jpeg",
+		title: "Leche Flan",
+		url: "",
+		tags: 'filipino, mom, snack, dessert',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-binagoongan.jpeg",
+		title: "Binagoongan",
+		url: "",
+		tags: 'filipino, mom, stew, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-chicken-adobo.jpeg",
+		title: "Chicken Adobo",
+		url: "",
+		tags: 'filipino, mom, chicken',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
 ];
-	
+
 export default data;

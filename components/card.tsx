@@ -55,7 +55,6 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes,
 	if (url) return (
 		<>
 			<div className={`${styles.Card} ${isScroll && styles.CardScroll}`} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
-				{<div className={styles.CardIcon}><HiExternalLink /></div>}
 				<h2 className={styles.CardTitle} >{title}</h2>
 			</div>
 			<Dialog

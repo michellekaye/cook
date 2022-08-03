@@ -49,11 +49,14 @@ const Categories: NextPage = (props) => {
 			<h2 className="scroll-title">Mexican</h2>
 			<CardScroll props={props} query='mexican' />
 
+			<h2 className="scroll-title">Veggies</h2>
+			<CardScroll props={props} query='vegetable' />
+
 			<h2 className="scroll-title">Snacks</h2>
 			<CardScroll props={props} query='snack' />
 
-			<h2 className="scroll-title">Veggies</h2>
-			<CardScroll props={props} query='vegetable' />
+			<h2 className="scroll-title">Dessert</h2>
+			<CardScroll props={props} query='dessert' />
 
 			<Footer />
     </>
