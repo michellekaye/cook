@@ -1,0 +1,12 @@
+.CardScroll {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 2rem 1rem;
+
+	@media (min-width: 650px) {
+		padding: 2rem;
+	}
+}

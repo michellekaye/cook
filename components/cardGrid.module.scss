@@ -23,12 +23,3 @@
 		grid-template-columns: repeat(5, 1fr);
 	}
 }
-
-.CardScroll {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	padding: 2rem;
-}

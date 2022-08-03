@@ -78,6 +78,17 @@ select {
 	}
 }
 
+.scroll-title {
+	bottom: -1rem;
+	margin: 0 0 0 2rem;
+	position: relative;
+
+	@media (max-width: 650px) {
+		margin-top: 0;
+		margin-left: 1rem;
+	}
+}
+
 .article {
 	max-width: 600px;
 	padding: 3rem;

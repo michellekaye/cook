@@ -16,9 +16,10 @@ interface Props {
 	ingredients?: string | undefined,
 	steps?: string | undefined,
 	notes?: string | undefined,
+	isScroll?: boolean,
 }
 
-export default function Card({ img, title, url, tags, ingredients, steps, notes }: Props) {
+export default function Card({ img, title, url, tags, ingredients, steps, notes, isScroll }: Props) {
 	const [home, setHome] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
 	const [fullWidth, setFullWidth] = useState(true);
@@ -53,7 +54,7 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes 
 
 	if (url) return (
 		<>
-			<div className={styles.Card} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
+			<div className={`${styles.Card} ${isScroll && styles.CardScroll}`} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
 				{<div className={styles.CardIcon}><HiExternalLink /></div>}
 				<h2 className={styles.CardTitle} >{title}</h2>
 			</div>
@@ -96,7 +97,7 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes 
 	
 	return (
 		<>
-			<div className={styles.Card} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
+			<div className={`${styles.Card} ${isScroll && styles.CardScroll}`} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
 				{home && <div className={styles.CardIcon}><AiFillHome /></div>}
 				<h2 className={styles.CardTitle} >{title}</h2>
 			</div>
