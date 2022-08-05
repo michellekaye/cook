@@ -65,13 +65,13 @@ const data = [
 		img: "/thumb-roasted-brussel-sprouts.jpeg",
 		title: "Roasted Brussel Sprouts",
 		url: "https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-roasted-brussels-sprouts-8611632",
-		tags: 'vegetarian, vegetable, baked, baking',
+		tags: 'vegetarian, vegetables, baked, baking',
 	},
 	{
 		img: "/thumb-shakshuka.jpeg",
 		title: "Shakshuka",
 		url: "https://www.loveandlemons.com/shakshuka-recipe/",
-		tags: 'egg, vegetable, vegetarian, mediterranean, middle eastern',
+		tags: 'egg, vegetables, vegetarian, mediterranean, middle eastern',
 	},
 	{
 		img: "/thumb-loco-moco.jpeg",
@@ -144,7 +144,7 @@ const data = [
 		img: "/thumb-laing.jpeg",
 		title: "Laing",
 		url: "",
-		tags: 'filipino, mom, vegetable, vegetarian, pork',
+		tags: 'filipino, mom, vegetables, vegetarian, pork',
 		ingredients: [
 			'lorem ipsum',
 			'dolor sit amet consectetur',
@@ -506,6 +506,215 @@ const data = [
 		title: "Lechon Paksiw",
 		url: "",
 		tags: 'filipino, mom, stew, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-lugaw.webp",
+		title: "Lugaw",
+		url: "",
+		tags: 'filipino, mom, soup, porridge',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-tinola.jpeg",
+		title: "Tinola",
+		url: "",
+		tags: 'filipino, mom, soup, chicken',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-champorado.jpeg",
+		title: "Champorado",
+		url: "",
+		tags: 'filipino, mom, snack, chocolate',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-pork-adobo.gif",
+		title: "Pork Adobo",
+		url: "",
+		tags: 'filipino, mom, pork, stew',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-mongo.jpeg",
+		title: "Mongo",
+		url: "",
+		tags: 'filipino, mom, beans, stew, vegetables',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-ginataang-gulay.jpeg",
+		title: "Ginataang Gulay",
+		url: "",
+		tags: 'filipino, mom, stew, vegetables',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-sisig.jpeg",
+		title: "Sisig",
+		url: "",
+		tags: 'filipino, mom, pork',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-pinakbet.webp",
+		title: "Pinakbet",
+		url: "",
+		tags: 'filipino, mom, vegetables',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-sopas.jpeg",
+		title: "Sopas",
+		url: "",
+		tags: 'filipino, mom, soup, chicken',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-sotanghon.jpeg",
+		title: "Sotanghon",
+		url: "",
+		tags: 'filipino, mom, soup, chicken',
+		ingredients: [
+			'lorem ipsum',
+			'dolor sit amet consectetur',
+			'adipiscing sed do eiusmod tempor incididunt',
+			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
+			'donec et odio pellentesque diam volutpat'
+		],
+		steps: [
+			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
+		]
+	},
+	{
+		img: "/thumb-ginisang-sayote.jpeg",
+		title: "Ginisang Sayote",
+		url: "",
+		tags: 'filipino, mom, vegetables, pork',
 		ingredients: [
 			'lorem ipsum',
 			'dolor sit amet consectetur',

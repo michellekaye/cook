@@ -50,7 +50,7 @@ const Categories: NextPage = (props) => {
 			<CardScroll props={props} query='mexican' />
 
 			<h2 className="scroll-title">Veggies</h2>
-			<CardScroll props={props} query='vegetable' />
+			<CardScroll props={props} query='vegetables' />
 
 			<h2 className="scroll-title">Snacks</h2>
 			<CardScroll props={props} query='snack' />
