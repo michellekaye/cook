@@ -1,6 +1,6 @@
 
 import styles from './card.module.scss'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { AiFillHome } from 'react-icons/ai';
 import { HiExternalLink } from 'react-icons/hi';
@@ -20,6 +20,7 @@ interface Props {
 }
 
 export default function Card({ img, title, url, tags, ingredients, steps, notes, isScroll }: Props) {
+	const cardRef = useRef(null);	
 	const [home, setHome] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
 	const [fullWidth, setFullWidth] = useState(true);
@@ -39,6 +40,25 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes,
     setFullWidth(event.target.checked);
 	};
 
+	const handleMouseMove = (e) => {
+		const card = cardRef.current;
+		const halfW = (card.clientWidth / 2);
+    const halfH = ( card.clientHeight / 2 );
+
+    const coorX = ( halfW - ( e.pageX - card.offsetLeft ) );
+		const coorY = (halfH - (e.pageY - card.offsetTop));
+
+    const degX  = ( ( coorY / halfH ) * 10 ) + 'deg'; // max. degree = 10
+		const degY = ((coorX / halfW) * -10) + 'deg'; // max. degree = 10
+
+		card.style.transform = `perspective( 600px ) translate3d( 0, 0, 0 ) scale(1.05) rotateX(${degX}) rotateY(${degY})`;
+	}
+
+	const handleMouseOut = (e) => {
+		const card = cardRef.current;
+		card.style.transform = '';
+	}
+
 	// useEffect(() => {
 	// 	(tags.find((tag) => {
 	// 		if (tag.includes('mom')) setHome(true);
@@ -54,7 +74,7 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes,
 
 	if (url) return (
 		<>
-			<div className={`${styles.Card} ${isScroll && styles.CardScroll}`} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
+			<div ref={cardRef} onMouseMove={handleMouseMove} onMouseOut={handleMouseOut} className={`${styles.Card} ${isScroll && styles.CardScroll}`} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
 				<h2 className={styles.CardTitle} >{title}</h2>
 			</div>
 			<Dialog
@@ -96,7 +116,7 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes,
 	
 	return (
 		<>
-			<div className={`${styles.Card} ${isScroll && styles.CardScroll}`} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
+			<div ref={cardRef} onMouseMove={handleMouseMove} onMouseOut={handleMouseOut} className={`${styles.Card} ${isScroll && styles.CardScroll}`} style={{ backgroundImage: `url(${imgUrl})` }} onClick={handleClickOpen}>
 				{home && <div className={styles.CardIcon}><AiFillHome /></div>}
 				<h2 className={styles.CardTitle} >{title}</h2>
 			</div>
