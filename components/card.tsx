@@ -40,7 +40,7 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes,
     setFullWidth(event.target.checked);
 	};
 
-	const handleMouseMove = (e) => {
+	const handleMouseMove = (e: any) => {
 		const card = cardRef.current;
 		const halfW = (card.clientWidth / 2);
     const halfH = ( card.clientHeight / 2 );
@@ -54,7 +54,7 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes,
 		card.style.transform = `perspective( 600px ) translate3d( 0, 0, 0 ) scale(1.05) rotateX(${degX}) rotateY(${degY})`;
 	}
 
-	const handleMouseOut = (e) => {
+	const handleMouseOut = (e: any) => {
 		const card = cardRef.current;
 		card.style.transform = '';
 	}
