@@ -43,13 +43,14 @@ export default function Card({ img, title, url, tags, ingredients, steps, notes,
 
 	const handleMouseMove = (e: any) => {
 		const card = cardRef.current;
+		const cardOffset = card.getBoundingClientRect();
 		const halfW = (card.clientWidth / 2);
-    const halfH = ( card.clientHeight / 2 );
+    const halfH = (card.clientHeight / 2 );
 
-    const coorX = ( halfW - ( e.pageX - card.offsetLeft ) );
+    const coorX = (halfW - (e.pageX - cardOffset.left));
 		const coorY = (halfH - (e.pageY - card.offsetTop));
 
-    const degX  = ( ( coorY / halfH ) * 10 ) + 'deg'; // max. degree = 10
+    const degX  = ((coorY / halfH ) * 10) + 'deg'; // max. degree = 10
 		const degY = ((coorX / halfW) * -10) + 'deg'; // max. degree = 10
 
 		card.style.transform = `perspective( 600px ) translate3d( 0, 0, 0 ) scale(1.05) rotateX(${degX}) rotateY(${degY})`;

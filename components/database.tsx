@@ -122,6 +122,12 @@ const data = [
 		tags: 'chicken, indian, stew',
 	},
 	{
+		img: "/thumb-cantonese-beef-noodles.jpeg",
+		title: "Cantonese Beef Noodles",
+		url: "https://www.marionskitchen.com/cantonese-beef-chow-fun-noodles/",
+		tags: 'asian, chinese, noodles',
+	},
+	{
 		img: "/thumb-macaroni-salad.jpeg",
 		title: "Macaroni Salad",
 		url: "",
