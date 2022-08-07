@@ -6,6 +6,18 @@ const data = [
 		tags: 'italian, pasta, cheese, baking, baked, beef',
 	},
 	{
+		img: "/thumb-carbonara.jpeg",
+		title: "Carbonara",
+		url: "https://damndelicious.net/2014/03/29/spaghetti-carbonara/",
+		tags: 'italian, pasta, cheese, bacon',
+	},
+	{
+		img: "/thumb-baked-mac-and-cheese.jpeg",
+		title: "Baked Mac and Cheese",
+		url: "https://www.thechunkychef.com/family-favorite-baked-mac-and-cheese/",
+		tags: 'italian, pasta, cheese, baked, baking',
+	},
+	{
 		img: "/thumb-pasticcio.jpeg",
 		title: "Pasticcio",
 		url: "https://www.foodnetwork.com/recipes/michael-symon/pasticcio-11247525",

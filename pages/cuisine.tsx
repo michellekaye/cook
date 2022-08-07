@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
-import { FaSearch, FaGlobeAmericas, FaInfoCircle, FaTag } from 'react-icons/fa';
+import { FaSearch, FaGlobeAmericas, FaInfoCircle, FaThLarge } from 'react-icons/fa';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -34,7 +34,7 @@ const Categories: NextPage = (props) => {
 					<div>
 						<Link href="/"><a><FaSearch/></a></Link>
 						<Link href="/cuisine"><a className="active"><FaGlobeAmericas /></a></Link>
-						<Link href="/categories"><a><FaTag /></a></Link>
+						<Link href="/categories"><a><FaThLarge /></a></Link>
 						<Link href="/about"><a><FaInfoCircle /></a></Link>
 					</div>
 				</div>

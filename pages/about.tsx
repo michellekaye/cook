@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import { FaSearch, FaGlobeAmericas, FaInfoCircle, FaTag } from 'react-icons/fa';
+import { FaSearch, FaGlobeAmericas, FaInfoCircle, FaThLarge } from 'react-icons/fa';
 import Head from 'next/head'
 import Nav from '../components/nav';
 import Footer from '../components/footer';
@@ -21,7 +21,7 @@ const Home: NextPage = (props) => {
 					<div>
 						<Link href="/"><a><FaSearch/></a></Link>
 						<Link href="/cuisine"><a><FaGlobeAmericas /></a></Link>
-						<Link href="/categories"><a><FaTag /></a></Link>
+						<Link href="/categories"><a><FaThLarge /></a></Link>
 						<Link href="/about"><a className="active"><FaInfoCircle /></a></Link>
 					</div>
 				</div>
