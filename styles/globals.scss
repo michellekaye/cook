@@ -70,7 +70,7 @@ select {
 	svg {
 		color: #555;
 		transition: all .1s ease-in-out;
-		margin-left: .75rem;
+		margin-left: 1rem;
 
 		&:hover {
 			color: #000;
@@ -90,11 +90,19 @@ select {
 	font-weight: 800;
 	margin: 0 0 0 2rem;
 	position: relative;
+	z-index: 2;
 
 	@media (max-width: 650px) {
 		margin-top: 0;
 		margin-left: 1rem;
 	}
+}
+
+.scroll-title-hack {
+	height: 0;
+	width: 0;
+	position: relative;
+	top: -4.5rem;
 }
 
 .article {
@@ -134,6 +142,35 @@ p > a {
 
 	&:hover {
 		border-bottom: 1px solid #000;
+	}
+}
+
+.slick-slider {
+	margin-bottom: 3rem;
+}
+
+.slick-prev {
+	z-index: 3;
+	left: 1rem !important;
+
+	&:before {
+		font-size: 2rem !important;
+	}
+}
+
+.slick-next {
+	right: 1.5rem !important;
+
+	&:before {
+		font-size: 2rem !important;
+	}
+}
+
+.slick-dots {
+	bottom: 2rem !important;
+
+	button:before {
+		font-size: 12px !important;
 	}
 }
 
