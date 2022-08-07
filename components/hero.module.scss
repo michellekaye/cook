@@ -50,10 +50,6 @@
 	}
 }
 
-.Thailand {
-	background-image: url('../public/hero-thailand.jpeg');
-}
-
 .Philippines {
 	background-image: url('../public/hero-philippines.avif');
 	&:before {
@@ -82,10 +78,6 @@
 	}
 }
 
-.Greece {
-	background-image: url('../public/hero-greece.jpeg');
-}
-
 .Turkey {
 	background-image: url('../public/hero-turkey.jpeg');
 	&:before {
@@ -95,16 +87,35 @@
 
 .Mexico {
 	background-image: url('../public/hero-mexico.jpeg');
+	&:before {
+		content: "Mexico";
+	}
+}
+
+.Drinks {
+	background-image: url('../public/hero-drinks.jpeg');
+	&:before {
+		content: "Drinks";
+	}
 }
 
 .Vegetables {
 	background-image: url('../public/hero-vegetables.webp');
+	&:before {
+		content: "Vegetables";
+	}
 }
 
 .Snacks {
 	background-image: url('../public/hero-snacks.jpeg');
+	&:before {
+		content: "Snacks";
+	}
 }
 
 .Dessert {
 	background-image: url('../public/hero-dessert.jpeg');
+	&:before {
+		content: "Dessert";
+	}
 }

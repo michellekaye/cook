@@ -60,11 +60,15 @@ select {
 
 	h1 {
 		color: #333;
-		font-size: 2rem;
+		font-size: 1.5rem;
 		line-height: 1;
 		margin: 0;
 		font-weight: 900;
 		text-decoration: none;
+
+		@media (min-width: 650px) {
+			font-size: 2rem;
+		}
 	}
 
 	svg {

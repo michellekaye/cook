@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import { FaSearch, FaGlobeAmericas, FaInfoCircle } from 'react-icons/fa';
+import { FaSearch, FaGlobeAmericas, FaInfoCircle, FaTag } from 'react-icons/fa';
 import Head from 'next/head'
 import CardGrid from '../components/cardGrid'
 import Nav from '../components/nav';
@@ -21,7 +21,8 @@ const Home: NextPage = (props) => {
 					<Link href="/"><a><h1>Michelle Cooks</h1></a></Link>
 					<div>
 						<Link href="/"><a className="active"><FaSearch/></a></Link>
-						<Link href="/categories"><a><FaGlobeAmericas /></a></Link>
+						<Link href="/cuisine"><a><FaGlobeAmericas /></a></Link>
+						<Link href="/categories"><a><FaTag /></a></Link>
 						<Link href="/about"><a><FaInfoCircle /></a></Link>
 					</div>
 				</div>
