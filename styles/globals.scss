@@ -153,11 +153,20 @@ p > a {
 	margin-bottom: 3rem;
 }
 
+.slick-slide {
+	padding: 0 1rem;
+
+	@media (min-width: 650px) {
+		padding: 0 2rem;
+	}
+}
+
 .slick-prev {
 	z-index: 3;
 	left: 1rem !important;
 
 	&:before {
+		display: none;
 		font-size: 2rem !important;
 	}
 }
@@ -166,12 +175,13 @@ p > a {
 	right: 1.5rem !important;
 
 	&:before {
+		display: none;
 		font-size: 2rem !important;
 	}
 }
 
 .slick-dots {
-	bottom: 2rem !important;
+	bottom: -2rem !important;
 
 	button:before {
 		font-size: 12px !important;

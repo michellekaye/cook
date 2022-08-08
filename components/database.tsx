@@ -144,19 +144,8 @@ const data = [
 		title: "Macaroni Salad",
 		url: "",
 		tags: 'pasta, cold, filipino, momn, snack',
-		ingredients: [
-			'lorem ipsum',
-			'dolor sit amet consectetur',
-			'adipiscing sed do eiusmod tempor incididunt',
-			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
-			'donec et odio pellentesque diam volutpat'
-		],
-		steps: [
-			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
-		]
+		ingredients: `- Macaroni \n- Crushed pineapple\n- Chicken breast\n- Mayo\n- Grated cheese`,
+		steps: '1. Boil half a bag of macaroni \n2. Boil 1 chicken breast and shred \n3. Combine all ingredients together'
 	},
 	{
 		img: "/thumb-laing.jpeg",
