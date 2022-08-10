@@ -126,6 +126,7 @@ const data = [
 		title: "Basque Cheesecake",
 		url: "https://www.kingarthurbaking.com/blog/2022/05/03/how-to-make-basque-cheesecake-baked-in-air-fryer",
 		tags: 'snack, dessert, cold, baked, air fryer',
+		notes: "- Put in air fryer for longer than 25 min but shorter than 30 min. Overcooking gives cheesecake an egg-y texture.",
 	},
 	{
 		img: "/thumb-butter-chicken.jpeg",
@@ -627,19 +628,8 @@ const data = [
 		title: "Ginataang Gulay",
 		url: "",
 		tags: 'filipino, mom, stew, vegetables',
-		ingredients: [
-			'lorem ipsum',
-			'dolor sit amet consectetur',
-			'adipiscing sed do eiusmod tempor incididunt',
-			'nisi lacus sed viverra tellus in hac habitasse platea dictumst',
-			'donec et odio pellentesque diam volutpat'
-		],
-		steps: [
-			'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-			'Sed euismod nisi porta lorem mollis aliquam ut porttitor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst.',
-		]
+		ingredients: "- Chopped onions\n- Chopped garlic\n - Coconut milk\n- Bagoong\n- Pork slices\n- Chopped squash\n- Beans",
+		steps: "1. Saute pork and set aside\n2. Saute onion and garlic\n3. Add bagoong\n4. Add coconut milk\n5. Bring coconut milk to a boil then add squash\n6. When squash is tender, add beans and pork"
 	},
 	{
 		img: "/thumb-sisig.jpeg",
